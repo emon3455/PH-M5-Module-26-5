@@ -8,3 +8,11 @@ for (const tag of h2) {
 // task-3
 document.getElementById("backpack").style.backgroundColor="pink";
 document.getElementById("backpack").style.padding="1rem";
+
+
+// task-4
+let cards = document.getElementsByClassName("card");
+for (const card of cards) {
+    card.style.borderRadius = "30px";
+}
+

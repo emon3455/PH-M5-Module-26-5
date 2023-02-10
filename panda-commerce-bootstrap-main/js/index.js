@@ -42,3 +42,17 @@ document.getElementById("exampleInputEmail1").addEventListener("keyup",function(
         document.getElementById("submitButton").setAttribute("disabled",true);
     }
 });
+
+// task-8:
+let img = document.getElementById("img1");
+
+img.addEventListener("mouseover", function(){
+
+    if(img.src !="http://127.0.0.1:5500/panda-commerce-bootstrap-main/images/shoes/shoe-2.png"){
+        img.src= " http://127.0.0.1:5500/panda-commerce-bootstrap-main/images/shoes/shoe-2.png";
+    }
+    else{
+        img.src= " http://127.0.0.1:5500/panda-commerce-bootstrap-main/images/shoes/shoe-1.png";
+    }
+
+});

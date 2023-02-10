@@ -56,3 +56,8 @@ img.addEventListener("mouseover", function(){
     }
 
 });
+
+// task-9:
+document.getElementById("subscribe").addEventListener("dblclick", function(){
+    document.getElementById("subscribe").style.backgroundColor="yellow";
+});

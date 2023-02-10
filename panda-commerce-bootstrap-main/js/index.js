@@ -20,3 +20,12 @@ for (const card of cards) {
 function clickMe(){
     console.log("Slider button clicked");
 }
+
+
+// task-6:
+// let btns = document.getElementsByClassName("btn");
+// for (const btn of btns) {
+//     btn.addEventListener("click", function(event){
+//         event.target.parentNode.removeChild(event.target);
+//     });
+// }

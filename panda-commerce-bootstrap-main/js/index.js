@@ -29,3 +29,16 @@ function clickMe(){
 //         event.target.parentNode.removeChild(event.target);
 //     });
 // }
+
+
+// task-7:
+document.getElementById("exampleInputEmail1").addEventListener("keyup",function(event){
+    let message = event.target.value;
+
+    if(message=="email"){
+        document.getElementById("submitButton").removeAttribute("disabled",false);
+    }
+    else{
+        document.getElementById("submitButton").setAttribute("disabled",true);
+    }
+});

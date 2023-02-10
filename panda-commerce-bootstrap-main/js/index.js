@@ -16,3 +16,7 @@ for (const card of cards) {
     card.style.borderRadius = "30px";
 }
 
+// task-5:
+function clickMe(){
+    console.log("Slider button clicked");
+}

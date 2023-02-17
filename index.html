@@ -64,7 +64,7 @@
 
         <div class="flex flex-col-reverse md:flex-row gap-2 space-y-2 md:space-x-3">
 
-            <section class=" grid grid-cols-1  md:grid-cols-2 gap-2">
+            <section id="card-section" class=" grid grid-cols-1  md:grid-cols-2 gap-2">
 
                 <div class="card card-compact w-full bg-base-100 shadow-xl">
 
@@ -72,16 +72,16 @@
 
                     <div class="card-body">
 
-                      <h2 class="card-title"> Coffee JS </h2>
+                      <h2 id="coffe-js-name" class="card-title"> Coffee JS </h2>
                       <p> 
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                     </p>
+                      </p>
 
-                     <p>Price: $ <span>110</span> </p>
+                     <p>Price: $ <span id="coffe-js-price">110</span> </p>
 
-                     <p>Quantity: <span>5</span> </p>
+                     <p>Quantity: <span id="coffe-js-amount">5</span> </p>
 
-                    <button class="btn btn-primary">Add To Cart</button>
+                    <button id="coffe-js" class="btn btn-primary">Add To Cart</button>
 
                     </div>
 
@@ -156,16 +156,16 @@
 
                     <div class="card-body">
 
-                      <h2 class="card-title"> VUE JS </h2>
+                      <h2 id="vue-js-name" class="card-title"> VUE JS </h2>
                       <p> 
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, 
-                     </p>
+                      </p>
 
-                    <input class="bg-gray-200 py-1 rounded-lg px-1" type="text" placeholder="Price">
+                    <input id="vue-js-price" class="bg-gray-200 py-1 rounded-lg px-1" type="text" placeholder="Price">
 
-                    <input class="bg-gray-200 py-1 rounded-lg px-1" type="text" placeholder="Amount">
+                    <input id="vue-js-amount" class="bg-gray-200 py-1 rounded-lg px-1" type="text" placeholder="Amount">
 
-                    <button class="btn btn-primary">Add To Cart</button>
+                    <button id="vue-js-btn" class="btn btn-primary">Add To Cart</button>
 
                     </div>
 
@@ -199,17 +199,10 @@
                         </thead>
                         
 
-                        <tbody>
+                        <tbody id="table-body">
 
                           <!-- row 1 -->
-                          <!-- <tr>
-                            <th>1</th>
-                            <td>Cy Ganderton</td>
-                            <td>Specialist</td>
-                            <td>Blue</td>
-                            <td>Blue</td>
-                            <td>Blue</td>
-                          </tr> -->
+                          
 
                          
                         </tbody>
